@@ -1,0 +1,19 @@
+{
+  "name": "common-expenses-libs",
+  "version": "1.0.0",
+  "description": "libs",
+  "main": "libs/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilleOsores/common-expenses-libs.git"
+  },
+  "author": "Guillermo Osores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilleOsores/common-expenses-libs/issues"
+  },
+  "homepage": "https://github.com/GuilleOsores/common-expenses-libs#readme"
+}
