@@ -1,11 +1,16 @@
+import { Apartment } from './apartment';
+
 export class Building {
+    buildingsId: string;
+    name: string;
+    address: string;
+    commonExpensesAmmount: number;
+    apartments: Apartment[];
 
-    private id: any;
-    private name: string;
-
-    constructor (id:any, name: string){
-        this.id = id;
+    constructor (buildingsId: string, name: string, address: string, commonExpensesAmmount: number) {
+        this.buildingsId = buildingsId;
         this.name = name;
+        this.address = address;
+        this.commonExpensesAmmount = commonExpensesAmmount;
     }
-    
 }
