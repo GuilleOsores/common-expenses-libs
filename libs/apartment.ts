@@ -1,9 +1,4 @@
-export class Apartment {
+export interface Apartment {
     apartmentsId: string;
     number: number;
-
-    constructor (apartmentsId: string, number: number) {
-        this.apartmentsId = apartmentsId;
-        this.number = number;
-    }
 }

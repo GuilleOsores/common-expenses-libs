@@ -1,7 +1,6 @@
 import { Building, Service } from './index';
 
-export class Invoice {
-
+export interface Invoice {
     invoicesId: string
     year: number;
     month: number;
@@ -10,9 +9,4 @@ export class Invoice {
     paidDate: Date;
     service: Service;
     building: Building;
-
-    constructor (invoicesId: string, year: number, month: number, ammount: number, dueDate: Date, service: Service, building: Building) {
-        
-    }
-    
 }

@@ -1,11 +1,7 @@
 import { Permission } from './permission';
 
-export class Role {
+export interface Role {
     rolesId: string;
     name: string;
     permissions: Permission[];
-
-    constructor(name: string){
-        this.name = name;
-    }
 }
