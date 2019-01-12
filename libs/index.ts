@@ -4,4 +4,5 @@ export { Service } from './service';
 export { Invoice } from './invoice';
 export { User } from './user';
 export { Role } from './role';
-export { Permission, action } from './permission';
+export { Permission } from './permission';
+export { Action } from './action';
