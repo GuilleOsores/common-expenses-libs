@@ -1,7 +1,8 @@
-export { Apartment } from './apartment';
-export { Building } from './building';
-export { Service } from './service';
-export { Invoice } from './invoice';
-export { User } from './user';
-export { Role } from './role';
-export { Permission, action } from './permission';
+export * from './apartment';
+export * from './building';
+export * from './service';
+export * from './invoice';
+export * from './user';
+export * from './role';
+export * from './permission';
+export * from './action';

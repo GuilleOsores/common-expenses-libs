@@ -1,11 +1,6 @@
-export enum action {
-    open,
-    read,
-    write,
-    delete
-}
+import { Action } from './action';
 
 export class Permission {
     program: string;
-    actions: action[];
+    action: Action;
 }
