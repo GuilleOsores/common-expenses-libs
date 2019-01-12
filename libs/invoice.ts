@@ -11,7 +11,7 @@ export class Invoice {
     service: Service;
     building: Building;
 
-    constructor (invoicesId: string, year: number, month: number, ammount: number, dueDate: Date, service: Service) {
+    constructor (invoicesId: string, year: number, month: number, ammount: number, dueDate: Date, service: Service, building: Building) {
         
     }
     

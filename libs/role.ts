@@ -4,4 +4,8 @@ export class Role {
     rolesId: string;
     name: string;
     permissions: Permission[];
+
+    constructor(name: string){
+        this.name = name;
+    }
 }
